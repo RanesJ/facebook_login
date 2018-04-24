@@ -1,0 +1,17 @@
+.container{
+    background-color: #3b5998;
+        margin-top: -22px;
+
+ }
+h1{
+    vertical-align: middle;
+    line-height: 82px;
+    color: white;
+    font-family: helvetica;
+}
+body{
+    margin: 0px;
+}
+p{
+    color: aqua
+}
