@@ -1,8 +1,8 @@
-.container{
+.menu_container{
     background-color: #3b5998;
-        margin-top: -22px;
-
  }
+.test{
+}
 h1{
     vertical-align: middle;
     line-height: 82px;
@@ -14,4 +14,18 @@ body{
 }
 p{
     color: aqua
+}
+.float_left{
+      vertical-align: middle;
+    line-height: 82px;
+    color: white;
+    font-family: helvetica;
+    display: inline-block;
+
+    
+}
+.float_right{
+    float: right;
+   
+    display: inline;
 }
