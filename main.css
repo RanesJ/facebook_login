@@ -20,18 +20,31 @@ p{
       vertical-align: middle;
     color: white;
     font-family: helvetica;
-    display: inline-block;
-
-    
+    display: inline-block;  
 }
 .float_right{
     float: right; 
     display: inline;
 }
-tbody,tr,td{
-color:white;
+    tbody,tr,td{
+    color:white;
 }
 .bodyContainer{
- width:980px;
+    width:980px;
     margin:0px auto;
+            display:inline-block;
+
 }
+.leftContainer{
+    font-size: 28px;  
+    width:565px;
+        display:inline-block;
+}
+.rightContainer{
+    font-size: 36px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    width:399px;
+    display:inline-block;
+}
+
+
