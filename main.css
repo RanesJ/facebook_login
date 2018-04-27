@@ -32,19 +32,31 @@ p{
 .bodyContainer{
     width:980px;
     margin:0px auto;
-            display:inline-block;
 
 }
 .leftContainer{
     font-size: 28px;  
     width:565px;
-        display:inline-block;
+    margin-right: 15.999px;
+    display:inline-block;
+    vertical-align: top;
 }
 .rightContainer{
     font-size: 36px;
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
-    width:399px;
+/*    width:399px;*/
     display:inline-block;
+        vertical-align: top;
+    float:right;
 }
+.inputBox1{
+    width: 194px;
+        display:inline-block;
 
+}
+.inputBox2{
+    width: 194px;
+        display:inline-block;
+
+}
 
