@@ -1,7 +1,9 @@
 .menuContainer{
     background-color: #3b5998;
  }
-.test{
+.testA{
+    margin:0 auto;
+    width :980px;
 }
 h1{
     vertical-align: middle;
