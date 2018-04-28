@@ -1,5 +1,6 @@
 .menuContainer{
     background-color: #3b5998;
+    border-bottom: 1px solid;
  }
 .testA{
     margin:0 auto;
@@ -18,13 +19,13 @@ body{
 p{
     color: aqua
 }
-.float_left{
+.facebookName{
       vertical-align: middle;
     color: white;
     font-family: helvetica;
     display: inline-block;  
 }
-.float_right{
+.LogInInput{
     float: right; 
     display: inline;
 }
@@ -39,7 +40,6 @@ p{
 .leftContainer{
     font-size: 28px;  
     width:565px;
-    margin-right: 15.999px;
     display:inline-block;
     vertical-align: top;
 }
@@ -51,14 +51,19 @@ p{
         vertical-align: top;
     float:right;
 }
-.inputBox1{
+.inputtext1{
+    display:inline-block;
+}
+.inputtext2{
     width: 194px;
         display:inline-block;
 
 }
-.inputBox2{
-    width: 194px;
-        display:inline-block;
+
+.inputtext3{
+    width:377px;
+            display:inline-block;
 
 }
+
 
