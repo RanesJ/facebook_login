@@ -25,6 +25,10 @@ p{
     font-family: helvetica;
     display: inline-block;  
 }
+.menuInputBox{
+    width:150px;
+}
+
 .LogInInput{
     float: right; 
     display: inline;
