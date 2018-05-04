@@ -46,12 +46,22 @@ body{
     vertical-align: top;
 }
 .rightContainer{
-    font-size: 36px;
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
 /*    width:399px;*/
     display:inline-block;
         vertical-align: top;
     float:right;
+}
+
+#SignUp{
+    font-size: 36px;
+
+}
+#Free{
+    font-size: 19px;
+}
+#birthdayTitle{
+    font-size: 14px;
 }
 .inputtext1{
     display:inline-block;
