@@ -40,10 +40,17 @@ body{
 
 }
 .leftContainer{
-    font-size: 28px;  
     width:565px;
     display:inline-block;
     vertical-align: top;
+}
+#connect{
+        font-size: 28px;  
+}
+.leftBold{
+        font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    
 }
 .rightContainer{
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
@@ -55,7 +62,6 @@ body{
 
 #SignUp{
     font-size: 36px;
-
 }
 #Free{
     font-size: 19px;
