@@ -43,10 +43,36 @@ body{
     width:565px;
     display:inline-block;
     vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #connect{
-        font-size: 28px;  
+    font-size: 28px;  
+    padding:42px 0 24px;
+    font-weight: bold;
+        font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: #333;
+   
 }
+.leftDescriptionList{
+     margin-top: 14px;
+    padding-bottom: 10px;
+}
+.productPhoto{
+        text-align: center;
+    width: 55px;
+    height: 51px;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.productDescription{
+    display:inline-block
+}
+
+
 .leftBold{
         font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
     font-weight: bold !important;
