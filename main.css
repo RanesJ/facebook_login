@@ -1,20 +1,38 @@
 .menuContainer{
     background-color: #3b5998;
     border-bottom: 1px solid;
+    height:82px;
  }
 .testA{
     margin:0 auto;
     width :980px;
+    padding-top:12px; 
 }
 h1{
     vertical-align: middle;
-/*    line-height: 82px;*/
     color: white;
     font-weight: 300;
     font-family: helvetica;
+    font-size:40px;
+    margin-top:17px;
+}
+
+#forgot{
+    font-size:13px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+tbody{
+    vertical-align: middle;
+    margin-bottom: 0;
+    
 }
 body{
     margin: 0px;
+}
+.grayBox{
+    padding-top:10px;
+    height:586px;
 }
 
 .facebookName{
@@ -37,16 +55,44 @@ body{
 .bodyContainer{
     width:980px;
     margin:0px auto;
+    margin-top: 20px;
+        background: #edf0f5;
 
 }
 .leftContainer{
     width:565px;
     display:inline-block;
     vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #connect{
-        font-size: 28px;  
+    font-size: 28px;  
+    padding:42px 0 24px;
+    font-weight: bold;
+        font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    color: #333;
+   
 }
+.leftDescriptionList{
+     margin-top: 14px;
+    padding-bottom: 10px;
+}
+.productPhoto{
+        text-align: center;
+    width: 55px;
+    height: 51px;
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.productDescription{
+    display:inline-block;
+}
+
+
 .leftBold{
         font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
     font-weight: bold !important;
@@ -62,25 +108,54 @@ body{
 
 #SignUp{
     font-size: 36px;
+        font-family: Helvetica, Arial, sans-serif;
+    font-weight:bold !important;
+
 }
 #Free{
     font-size: 19px;
+    color:#333;
+    margin-bottom: 20px;
 }
-#birthdayTitle{
-    font-size: 14px;
+.birthdayContainer{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#birthdayTitles{
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 .inputtext1{
     display:inline-block;
+    margin-bottom: 10px;
+    margin-right:8px;
+    position:relative;
+    width:172px;
+    font-size:18px;
+    padding:8px 10px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
 }
 .inputtext2{
-    width: 194px;
-        display:inline-block;
-
+    width: 172px;
+    display:inline-block;
+    font-size:18px;
+    padding:8px 10px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
 }
+
 
 .inputtext3{
     width:377px;
-            display:inline-block;
+    display:inline-block;
+    margin:0px;
+    font-size:18px;
+    padding:8px 10px;
+    border-radius: 5px;
+    border:1px solid #bdc7d8;
+    margin-bottom: 10px;
 
 }
 .BySignUp{
@@ -88,6 +163,7 @@ body{
 }
 .radioSex{
     font-size:18px;
+    margin-top: 10px;
 }
 #birthday-help{
     font-size: 11px;
@@ -98,13 +174,57 @@ body{
 }
 
 #day{
-    margin-left: -10px;
-    margin-right:-10px;
+    margin-left: -5px;
+    margin-right:-5px;
 }
 .birthday-box-size{
     height:30px;
+    padding:5px;
 }
-
-
-
+.femaleRadio{
+    display: inline-block;
+    padding: 0 10px 0 3px;
+    margin-right: 4px;
+}
+.maleRadio{
+    display: inline-block;
+    padding: 5px 0 5px 4px;
+    margin-right:4px;
+}
+.signUpButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+        min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    
+        background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    
+        border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);  
+}
+.createPage a{
+    color: #365899;    
+    text-decoration: none;
+}
+.createPage{
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+}
+}
 

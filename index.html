@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="main.css">
     </head>
 <body>
+<!--    Start of Blue Bar-->
     <div class="menuContainer">    
                 <div class="testA">
 
@@ -14,12 +15,11 @@
       <div class="LogInInput">
         <table>
             <tbody>
-            <div class="emailText">
             <tr>
                 <td>Email or Phone</td>
                 <td>Password</td>
             </tr>
-                </div>
+                
             
             <tr>
                     <td><input type="email" class="menuInputBox">   </td> 
@@ -28,9 +28,8 @@
             </tr>
                 <tr>
                     <td></td>
-                    <td style="color:#9cb4d8;">Forgot Account?
-                </td>
-            </tr>
+                    <td id="forgot" style="color:#9cb4d8;">Forgot Account?
+                        </td>
             </tbody>
         </table>
 
@@ -38,31 +37,43 @@
                 
     </div>
         </div>
+    <div class="grayBox" style="background: #edf0f5;">
+<!--   End of Blue Bar Header-->
+<!--Start of Body Content  -->
     <div class="bodyContainer">
         <div class="leftContainer">
             <div id="connect">Connect with friends and the
-        world <br>around you on Facebook.</div>
-            <div class="photosUpdates"><img src="photosUpdates.png"><span class="leftBold"> See photos and updates</span> from friends in News Feed</div>
-            <div class=""><img src="shareWhatsNew.png"><span class="leftBold">Share what's new</span> in your life on your Timeline</div>
-            <div class=""><img src="findMore.png"><span class="leftBold">Find more</span> of what you're looking for with Facebook Search.</div>
+        <br> world around you on Facebook.</div>
+            
+            <div class="leftDescriptionList"><div class="productPhoto"><img src="photosUpdates.png"></div><div class="productDescription"><span class="leftBold"> See photos and updates</span> from friends in News Feed</div></div>
+            
+            <div class="leftDescriptionList"><div class="productPhoto"><img src="shareWhatsNew.png"></div><div class="productDescription"><span class="leftBold">Share what's new</span> in your life on your Timeline</div></div>
+            
+            <div class="leftDescriptionList"><div class="productPhoto"><img src="findMore.png"></div><div class="productDescription"><span class="leftBold">Find more</span> of what you're looking for with Facebook Search.</div>
         </div> 
+        </div>
+        
     <div class="rightContainer">
         <div id="SignUp">Sign Up</div>
-        <div class="Free">It's free and always will be.</div>
+        <div id="Free">It's free and always will be.</div>
+        <form>
         <div class="inputRow1">
-                    <td><input type="email" class="inputtext1" name="email" id="email">  
+                    <td><input type="email" class="inputtext1" name="email" id="email" placeholder="First name">  
 
-                    <td><input type="email" class="inputtext2" name="email" id="email"  >  
+                    <td><input type="email" class="inputtext2" name="email" id="email" placeholder="Last name" >  
                    </div>
              
         <div class="inputRow2">
-        <input type="text" class="inputtext3" data-type="text"  placeholder="">
+        <input type="text" class="inputtext3" data-type="text"   placeholder="Mobile number or email">
         </div>
          <div class="inputRow3">
-        <input type="password" class="inputtext3" data-type="password" autocomplete="new-password" name="reg_passwd__" placeholder="">
+        <input type="password" class="inputtext3" data-type="password" autocomplete="new-password" name="reg_passwd__" placeholder="New Password" >
         </div>
+        </form>
+        <div class="birthdayContainer">
         <div id="birthdayTitles">Birthday</div>
         <div>
+<!--            Copied from facebook code to match-->
             <select class="birthday-box-size" name="birthday_month" id="month" title="Month">
             <option value="0">Month</option><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option>
             <option value="4" selected="1">Apr</option>
@@ -76,13 +87,19 @@
             
         <a id="birthday-help" href="#" title="Click for more information" role="button">Why do I need to provide my birthday?</a>
         </div>
+        </div>
+<!--        End of Birthday Container-->
             <div>
-            <div class="radioSex"><input type="radio"><label>Female</label>
-            <input type="radio"><label>Male</label></div>
+                <div class="radioSex"><div class="femaleRadio"><input type="radio"><label>Female</label></div>
+                    <div class="maleRadio"><input type="radio"><label>Male</label></div>
             <div class="BySignUp"><p>By clicking Sign Up, you agree to our Terms,Data Policy and <br>Cookies Policy. You may recieve SMS Notification from us and<br> can opt out any time.</p></div>
         </div>
-        <button type="submit" class="_6j mvm _6wk _6wl _58mi _3ma _6o _6v" name="websubmit" id="u_0_s">Sign Up</button>
+        <button class="signUpButton">Sign Up</button>
+        </div>
+        <div class="createPage"><a href>Create a Page</a> for a celebrity, band or business. </div>
         </div>
     </div>
+    </div>
 </body>
+<!--End of Body Container-->
 </html>
