@@ -34,7 +34,12 @@ body{
     padding-top:10px;
     height:586px;
 }
-
+#bodyHeight{
+    background:#edf0f5;
+}
+.test3{
+    min-height:612px;
+}
 .facebookName{
       vertical-align: middle;
     color: white;
@@ -56,7 +61,6 @@ body{
     width:980px;
     margin:0px auto;
     margin-top: 20px;
-        background: #edf0f5;
 
 }
 .leftContainer{
@@ -225,6 +229,27 @@ body{
     margin-top: 10px;
     padding-top: 15px;
 }
+#pageFooter{
+    margin:0 auto;
+    width:980px;
+    margin-top: 20px;
+    list-style: none;
 }
+#pageFooter ul{
+    list-style: none;
 }
+#pageFooter li{
+    display: inline-block;
+}
+#contentCurve{
+    border-bottom:1px solid #dddfe2;
+        font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;      
+}
+
+#pageFooterLinks li{
+    list-style: none;
+}
+
 
