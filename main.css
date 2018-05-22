@@ -184,6 +184,11 @@ body{
 }
 .BySignUp{
     font-size: 11px;
+    color: #777;
+    text-decoration: none;
+}
+.BySignUp a{
+    color:#3b5998;
 }
 .radioSex{
     font-size:18px;
@@ -195,6 +200,7 @@ body{
     display: inline-block;
     max-width: 140px;
     vertical-align: middle;
+    color:#3b5998
 }
 
 #day{
