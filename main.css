@@ -114,12 +114,14 @@ body{
 }
 .productDescription{
     display:inline-block;
+    color:#666;
 }
 
 
 .leftBold{
         font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
     font-weight: bold !important;
+    color:#333;
     
 }
 .rightContainer{
